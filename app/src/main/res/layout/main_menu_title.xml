@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:paddingTop="40dp"
+    android:background="@color/gray_e">
+<!--这是侧边栏的头部-->
+<!--自定义控件：用户头像-->
+    <com.example.rainmusic.ui.RoundImageView
+        android:id="@+id/main_menu_title_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/img_head"
+        app:border_color="#FF7F24"
+        app:border_width="2dp"
+        app:is_circle="true"/>
+<!--用户名称-->
+    <TextView
+        android:id="@+id/main_menu_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="你的名字"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

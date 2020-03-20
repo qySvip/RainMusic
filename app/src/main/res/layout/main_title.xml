@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_title"
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+        <!--  这是此fragment的name  -->
+        <TextView
+            android:id="@+id/main_title_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/main_name1"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <!--  搜索框  -->
+        <!--  点击跳转到搜索界面  -->
+        <RelativeLayout
+            android:id="@+id/main_title_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:layout_margin="5dp"
+            android:background="@drawable/search_background"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/main_title_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_search"/>
+            <TextView
+                android:id="@+id/main_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/main_title_img"
+                android:gravity="center"
+                android:text="少年"
+                android:textColor="@color/gray_7"/>
+        </RelativeLayout>
+
+        <!--  听歌识曲  -->
+        <ImageView
+            android:id="@+id/main_title_ear"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_earing"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_c"/>
+</LinearLayout>

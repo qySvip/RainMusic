@@ -1,0 +1,24 @@
+<resources>
+    <!--  主页面  -->
+    <string name="app_name">雨语音乐</string>
+    <string name="main_name1">音动</string>
+    <string name="main_name2">推荐</string>
+    <string name="main_name3">社区</string>
+    <string name="main_name4">我的</string>
+
+    <!--  侧边栏  -->
+    <string name="menu_item1">开通会员</string>
+    <string name="menu_item2">上传歌曲</string>
+    <string name="menu_item3">定时停止播放</string>
+    <string name="menu_item4">个性装扮</string>
+    <string name="menu_item5">关于</string>
+    <string name="menu_night">夜间模式</string>
+    <string name="menu_set">设置</string>
+    <string name="menu_out">退出</string>
+
+    <!--  我的界面  -->
+    <string name="mine_top">我的音乐</string>
+    <string name="mine_bottom">我的歌单</string>
+    <string name="mine_list_title">嘻哈音乐歌单</string>
+    <string name="mine_list_content">20首</string>
+</resources>
